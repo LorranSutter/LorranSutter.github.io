@@ -1,0 +1,17 @@
+:root {
+	--bg-color: #303742;
+	--bg-track-color: #3c4450;
+	--bg-thumb-color: #5d646e;
+}
+
+body::-webkit-scrollbar {
+	width: 0.8em;
+}
+
+body::-webkit-scrollbar-track {
+	background-color: var(--bg-track-color);
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: var(--bg-thumb-color);
+}
