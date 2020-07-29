@@ -7,8 +7,8 @@ function toggleDarkMode() {
 
     if (body.classList.contains("bg-dark")) {
         body.classList.remove("bg-dark");
-        linkedinIcon.src = "img/linkedin-icon-dark.svg";
-        githubIcon.src = "img/github-icon-dark.svg";
+        linkedinIcon.src = "img/linkedin-icon-purple.svg";
+        githubIcon.src = "img/github-icon-purple.svg";
         darkModeButton.innerHTML = "Dark mode";
 
         buttons.forEach(button => {
